@@ -16,8 +16,4 @@
     <None Remove="VehiclePositionLookup\**" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="GeoCoordinatePortable\GeoCoordinatePortable.csproj" />
-  </ItemGroup>
-
 </Project>
