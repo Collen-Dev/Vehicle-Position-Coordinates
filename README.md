@@ -3,3 +3,6 @@ This is a Console App that can find and list the registration numbers of the nea
 
 Special instructions:
 ----------------------
+
+1. Clone the project repo to your local folder.
+2. Ensure that it bulds successfully.
