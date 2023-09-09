@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NearestVehiclePositionsApp", "NearestVehiclePositionsApp.csproj", "{0C2D643A-7304-4054-AFB3-84DCC1887891}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoCoordinatePortable", "GeoCoordinatePortable\GeoCoordinatePortable.csproj", "{438D1D9E-3D2A-4C48-A88E-9D2FF4B42582}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A923FB0C-D822-4F26-A212-82DBB0B91102}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C2D643A-7304-4054-AFB3-84DCC1887891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C2D643A-7304-4054-AFB3-84DCC1887891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C2D643A-7304-4054-AFB3-84DCC1887891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C2D643A-7304-4054-AFB3-84DCC1887891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{438D1D9E-3D2A-4C48-A88E-9D2FF4B42582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{438D1D9E-3D2A-4C48-A88E-9D2FF4B42582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{438D1D9E-3D2A-4C48-A88E-9D2FF4B42582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{438D1D9E-3D2A-4C48-A88E-9D2FF4B42582}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0939795-6502-45DB-82C0-6602D56EDFB3}
+	EndGlobalSection
+EndGlobal

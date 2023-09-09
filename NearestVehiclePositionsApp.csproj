@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="GeoCoordinatePortable\**" />
+    <Compile Remove="VehiclePositionLookup\**" />
+    <EmbeddedResource Remove="GeoCoordinatePortable\**" />
+    <EmbeddedResource Remove="VehiclePositionLookup\**" />
+    <None Remove="GeoCoordinatePortable\**" />
+    <None Remove="VehiclePositionLookup\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="GeoCoordinatePortable\GeoCoordinatePortable.csproj" />
+  </ItemGroup>
+
+</Project>
