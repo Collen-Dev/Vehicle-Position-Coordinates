@@ -13,15 +13,15 @@ namespace VehiclePositionLookup
             return vehiclePositionList;
         }
 
-        internal static List<VehiclePosition> ReadDataFile()
-        {
-            byte[] data = DataFileParser.ReadFileData();
-            List<VehiclePosition> vehiclePositionList = new List<VehiclePosition>();
-            int offset = 0;
-            while (offset < data.Length)
-                vehiclePositionList.Add(DataFileParser.ReadVehiclePosition(data, ref offset));
-            return vehiclePositionList;
-        }
+        //internal static List<VehiclePosition> ReadDataFile()
+        //{
+        //    byte[] data = DataFileParser.ReadFileData();
+        //    List<VehiclePosition> vehiclePositionList = new List<VehiclePosition>();
+        //    int offset = 0;
+        //    while (offset < data.Length)
+        //        vehiclePositionList.Add(DataFileParser.ReadVehiclePosition(data, ref offset));
+        //    return vehiclePositionList;
+        //}
 
         private static byte[] ReadFileData()
         {

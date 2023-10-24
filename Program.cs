@@ -8,6 +8,8 @@ namespace VehiclePositionLookup
         {
             Console.WriteLine("Fetching data for the sorted 10 coordinates...");
 
+            Stopwatch sw = Stopwatch.StartNew();
+                        
             // Fetch the sorted 10 coordinates
             Coord[] vehCoordinates = VehicleLookup.GetLookupCoordinates().OrderBy(x => x.Latitude).ToArray();
 
@@ -15,9 +17,15 @@ namespace VehiclePositionLookup
             // Fetch data from file
             List<VehiclePosition> data = DataFileParser.ReadVehiclesDataFile().OrderBy(x=>x.Latitude).ToList();
 
-            Console.WriteLine("Start processing data using binary search algorithm...");
-            Console.WriteLine("");
+            // Focus on positions of interest
             VehiclePositionFinder.GetClosestVehicleCoordinates(data, vehCoordinates);
+
+            // Check the duration
+            sw.Stop();
+
+            Console.WriteLine($"time taken: {sw.ElapsedMilliseconds}ms");
+
+            Console.Read();            
         }
     }
 }
